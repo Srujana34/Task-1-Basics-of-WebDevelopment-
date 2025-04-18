@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="highlight">Event Organizer</h1>
+      <p>
+        This platform helps users easily create, manage, and share events. Organizers can add event details like title, date, and description, while visitors can view upcoming events and stay updated. It’s designed to simplify event planning with a user-friendly interface and smooth interaction.
+      </p>
+
+      <!-- Navigation Links -->
+      <nav>
+        <a href="Home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </header>
+
+    <img src="events.jpeg" alt="Event Image" class="banner">
+
+    <!-- Events Gallery -->
+    <!-- List of Events -->
+<h2 class="section-title">Upcoming Event Highlights</h2>
+<div class="event-list">
+  <div class="event-card" onclick="showEvent('Birthday Bash')">
+    <img src="Birthday.webp" alt="Birthday Bash">
+    <h3>Birthday Bash</h3>
+    <p>A fun and colorful celebration for all ages.</p>
+  </div>
+
+  <div class="event-card" onclick="showEvent('Dream Wedding')">
+    <img src="wedding.jpeg" alt="Dream Wedding">
+    <h3>Dream Wedding</h3>
+    <p>Elegant wedding planning tailored to your vision.</p>
+  </div>
+
+  <div class="event-card" onclick="showEvent('Corporate Conference')">
+    <img src="conference.jpeg" alt="Corporate Conference">
+    <h3>Corporate Conference</h3>
+    <p>Professional event setup for business and networking.</p>
+  </div>
+</div>
+
+
+    <!-- Simple JavaScript Interaction -->
+    <!-- JavaScript Interaction Relevant to Event Organizer -->
+<div class="button-container">
+    <button onclick="notifyUser()">Get Event Updates</button>
+  </div>
+  
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
